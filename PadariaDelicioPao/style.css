@@ -1,0 +1,83 @@
+.navbar-nav {
+    display: flex;
+    justify-content: center;  /* Centraliza os itens de navegação */
+    flex-grow: 1;
+    gap: 20px;  /* Menor espaçamento entre os itens */
+    align-items: center; 
+}
+.container-flue {
+    display: grid;
+    place-items: center;  /* Centraliza o item dentro do grid */
+    height: 100vh;         /* 100% da altura da tela */
+    background-color: #f4f4f4;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-location {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.card-price {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.card-link:hover {
+    color: #1abc9c;
+}
+    
+.custom-footer {
+    width: 100%; /* Definindo 80% da largura da tela */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
